@@ -61,7 +61,7 @@ export function FormProcuracaoPF() {
     };
 
     try {
-      const response = await fetch('https://5000-ixyxn6cw882c62cg2wx1q-7e1c4ba2.manusvm.computer/api/generate_procuracao_pf', {
+      const response = await fetch('https://papel-facil-backend.onrender.com/api/generate_procuracao_pf', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
